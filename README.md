@@ -1,6 +1,6 @@
 # React JS Full Course for Beginners
 
-This repository contains code and resources for an all-in-one beginner's course in React JS. The course spans nearly 9 hours and covers modern React development using functional components and hooks.
+These notes are my personal reference for an extensive 9-hour beginner's course on React JS, which delves into modern React development using functional components and hooks. I want to clarify that I'm using these notes for my own learning journey, and they are not intended for teaching purposes.
 
 ![React logo](img/react.png)
 
