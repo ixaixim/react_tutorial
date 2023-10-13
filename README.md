@@ -61,6 +61,29 @@ This repository contains code and resources for an all-in-one beginner's course 
 
 --- 
 
+## Saving Space
+
+When working with React on your local machine, keeping all the necessary libraries and dependencies can take up a lot of space. To help manage this, you can uninstall all packages from each chapter by running the `uninstall_packages.sh` script in Bash.
+
+This script will use `npm uninstall` to remove all the packages listed in the `package.json` file for each chapter, freeing up space on your machine. To run the script, navigate to the root directory of the project in your terminal and enter the command:
+
+```markdown
+bash uninstall_packages.sh
+```
+
+This will execute the `uninstall_packages.sh` script, which will remove all the packages listed in the `package.json` file for each chapter.
+
+If you need to reinstall the packages later, you will need to run `npm install` in each chapter to reinstall the necessary dependencies. For example, to reinstall the packages for Chapter 1, navigate to the Chapter 1 directory in your terminal and enter the commands:
+
+```markdown
+cd chapter_1
+npm install
+```
+
+This will install the necessary dependencies for Chapter 1.
+
+Note that the `uninstall_packages.sh` script will permanently remove the packages for each chapter, so make sure to back up any important files before running the script. Additionally, if you have made any changes to the `package.json` file, make sure to save those changes before running the script to avoid losing any work.
+
 ### Credits
 
 This course is based on the tutorial by [Dave Gray](https://www.youtube.com/channel/UCY38RvRIxYODO4penyxUwTg). You can watch the full tutorial on [YouTube](https://www.youtube.com/watch?v=EfAl9bwzVZk&ab_channel=DaveGray).
