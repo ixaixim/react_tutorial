@@ -59,7 +59,7 @@ This repository contains code and resources for an all-in-one beginner's course 
 22. **Easy Peasy Redux**: Learn how to manage complex state using Easy Peasy and Redux.
 23. **Build & Deploy Your React Apps**: A guide on how to build and deploy your React applications.
 
----
+--- 
 
 ### Credits
 
