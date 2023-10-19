@@ -84,6 +84,22 @@ This will install the necessary dependencies for Chapter 1.
 
 Note that the `uninstall_packages.sh` script will permanently remove the packages for each chapter, so make sure to back up any important files before running the script. Additionally, if you have made any changes to the `package.json` file, make sure to save those changes before running the script to avoid losing any work.
 
+## How to create a JSON server to act as a backend.
+
+You can use `npx` to create a JSON server that can act as a backend for your application. The `json-server` package provides a simple way to create a RESTful API using a JSON file as the data source.
+
+To create a JSON server using `npx`, follow these steps:
+
+1. Create a `db.json` file in a `data` directory in your project. This file will contain the data that the JSON server will serve as an API.
+
+2. Open your terminal and navigate to the root directory of your project.
+
+3. Run the following command:
+
+```markdown
+npx json-server -p 3500 -w data/db.json
+```
+
 ### Credits
 
 This course is based on the tutorial by [Dave Gray](https://www.youtube.com/channel/UCY38RvRIxYODO4penyxUwTg). You can watch the full tutorial on [YouTube](https://www.youtube.com/watch?v=EfAl9bwzVZk&ab_channel=DaveGray).
